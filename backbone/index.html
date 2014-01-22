@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>Test Backbone application</title>
+  </head>
+   <body>
+    
+    <div class="container">
+        <div id="chart_forecast_view" class="chart-view">
+            <div class="title">Weather forecast for 5 days</div>
+            <div class="info">
+                <input id="location" class="" type="text" name="location" placeholder="Enter a city"/>
+                <button id="statistics_show" class="btn btn-primary btn-search">Search</button>
+            </div>
+            <div id="forecast_chart"></div>
+        </div>
+        
+        <div id="chart_statistics_view" class="chart-view">
+            <div class="title"><a href="http://www.mamba.ru" target="_blank">Mamba.ru</a> users online</div>
+            <div id="statistics_chart"></div>
+        </div>
+    </div>
+        
+    <script type="text/javascript" src="/libs/jquery-2.0.3.min.js"></script>
+    <script type="text/javascript" src="/libs/underscore.js"></script>
+    <script type="text/javascript" src="/libs/backbone-min.js"></script>
+    <link rel="stylesheet" type="text/css" href="main.css" />
+    
+   <!-- Twitter bootstrap -->
+    <!-- Latest compiled and minified CSS -->
+    <link rel="stylesheet" href="//netdna.bootstrapcdn.com/bootstrap/3.0.3/css/bootstrap.min.css">
+    <!-- Optional theme -->
+    <link rel="stylesheet" href="//netdna.bootstrapcdn.com/bootstrap/3.0.3/css/bootstrap-theme.min.css">
+    <!-- Latest compiled and minified JavaScript -->
+    <script src="//netdna.bootstrapcdn.com/bootstrap/3.0.3/js/bootstrap.min.js"></script>
+    
+    <script src="http://localhost:8000/socket.io/socket.io.js"></script>
+    
+    <!-- Raphael lib -->
+    <script src="/libs/raphael.js"></script>
+    <script src="/libs/g.raphael-min.js"></script>
+    <script src="/libs/g.line-min.js"></script>
+    <script src="utils.js"></script>
+    
+    <script type="text/javascript" src="app.js"></script>
+    </body>
+</html>

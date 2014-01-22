@@ -1,0 +1,26 @@
+.chart-view {
+    margin-top: 40px;
+}
+.info {
+    margin: 15px;
+    float: right;
+    margin-right: 58px;
+}
+
+.title {
+    font-size: 2em;
+    text-align: right;
+    margin-right: 58px;
+}
+
+#location{
+    margin-top: 15px;
+    line-height: 2em;
+}
+.container {
+    width: 870px !important;
+}
+
+.btn.btn-search {
+    margin-left: 15px;
+}
