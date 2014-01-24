@@ -15,3 +15,5 @@ This project uses the following client-side JavaScript modules:<br/>
   4. Raphael.js<br/>
   5. "g.Raphael.js" charts<br/>
   6. Twitter Bootstrap<br/>
+
+You can watch demo <a href="http://demo.videal.net:9098/backbone/" target="_blank">here</a>
