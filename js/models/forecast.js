@@ -11,6 +11,9 @@ window.Forecast = Backbone.Model.extend({
  * @type @exp;Backbone@pro;Collection@call;extend
  */
 window.ForecastCollection = Backbone.Collection.extend({
-    url   : 'http://10.0.1.23:8888/get-forecast-data',
-    model : Forecast
+    url   : null,
+    model : Forecast,
+    initialize: function() {
+        this.url = window.server_url + ":8888/get-forecast-data";
+    }
 });

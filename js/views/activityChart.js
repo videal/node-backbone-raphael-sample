@@ -14,9 +14,9 @@ window.ActivityChartView = Backbone.View.extend({
             self = this;
 
         if (navigator.userAgent.toLowerCase().indexOf('chrome') != -1) {
-            socket = io.connect('http://10.0.1.23:8000', {'transports': ['xhr-polling']});
+            socket = io.connect(window.server_url + ":8000", {'transports': ['xhr-polling']});
         } else {
-            socket = io.connect('http://10.0.1.23:8000');
+            socket = io.connect(window.server_url + ":8000");
         }
 
         socket.on('message', function (resp) {

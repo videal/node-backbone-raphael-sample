@@ -1,4 +1,9 @@
-window.server_url = "http://10.0.1.23:8888";
+/**
+ * @author Max Plavinskiy
+ * @email m.plavinskiy@videal.net
+ */
+
+window.server_url = "http://localhost";
 
 window.Router = Backbone.Router.extend({
     routes: {
